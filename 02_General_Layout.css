@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "TwoShotsCleanFull";
+	/*a name to be used later*/
+	src: url("Vozzy - Two Shots Clean Full.WOFF2") format("woff2");
+	/*URL to font*/
+}
+
+@font-face {
+	font-family: "TwoShotsCleanFullOTF";
+	/*a name to be used later*/
+	src: url("Vozzy - Two Shots Clean Full.otf") format("oft");
+	/*URL to font*/
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1#button {
+	display: block;
+
+	text-align: center;
+	font-size: 4em;
+	background-color: aliceblue;
+	color: black;
+}
+
+/* -------------------------------- */
+/* ------flexContainerBody0---------*/
+/* -------------------------------- */
+
+.flexContainerBody0 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 400px;
+	flex-grow: 0;
+	align-items: center;
+	justify-content: center;
+	line-height: normal;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#clock {
+	line-height: normal;
+	text-align: center;
+	background-color: black;
+}
+
+div#seconds {
+	line-height: normal;
+	text-align: center;
+	color: yellow;
+}
+
+div#alert {
+	line-height: normal;
+	text-align: center;
+	color: yellow;
+}
+
+div.dateA {
+	line-height: normal;
+	text-align: center;
+}
+
+.dateA button {
+	line-height: normal;
+	text-align: left;
+	width: 70%;
+	height: 100px;
+	font-size: 2em;
+	border-radius: 1em;
+	text-align: center;
+	box-shadow: inset 0px 0px 3px black, inset 0px 0px 10px black, inset 0px 0px 20px black, 0px 0px 25px 1px black;
+	margin: 50px;
+}
+
+button {
+	display: block;
+	margin: auto;
+	padding: auto;
+	border: 5px solid red;
+}
+
+button
+/* -------------------------------- */
+/* ------flexContainerBody-BarSoap---------*/
+/* -------------------------------- */
+
+
+
+
+section.flexContainerBody-BarSoap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 100%;
+	text-align: center;
+	padding: 0px;
+	align-items: center;
+	line-height: normal;
+	height: auto;
+	margin-top: 70px;
+}
+
+article.flex-container-body-01 > div {
+	line-height: normal;
+	text-align: center;
+	flex-wrap: wrap;
+	width: 100%;
+	min-height: 100%;
+	padding: 0px;
+	border: 10px yellow solid;
+	align-items: center;
+}
+
+.flexContainerBody-BarSoap > article > div > h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgba(196, 115, 49, 0.672);
+	text-shadow: 8px 8px 20px black;
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+
+	/* border: 10px yellow solid; */
+}
+
+.flexContainerBody-BarSoap > article > div > a > img {
+	width: auto;
+	max-height: 300px;
+	/* margin-top:100px; */
+
+	border-radius: 25px;
+	box-shadow: inset 0px 0px 3px teal, inset 0px 0px 10px teal, inset 0px 0px 20px teal, 0px 0px 25px 1px black;
+	border: 10px yellow solid;
+}
+
+/* -------------------------------- */
+/* ------flex-container-body-01---------*/
+/* -------------------------------- */
+
+section.flex-container-body-01 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+section.flex-container-body-01 > div {
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	margin: 1rem;
+	line-height: normal;
+
+	height: 100%;
+}
+.flex-container-body-01 > div > h1 {
+	text-align: center;
+	line-height: normal;
+	width: auto;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.flex-container-body-01-Quote > h2 {
+	color: #b43b07;
+	font-family: TwoShotsCleanFull, Courier, monospace;
+	font-weight: normal;
+
+	text-shadow: 8px 8px 20px black;
+	-webkit-text-stroke-width: 0.3px;
+	-webkit-text-stroke-color: white;
+	font-weight: normal;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	line-height: normal;
+	text-align: center;
+	font-size: 0.5rem;
+	margin: 2rem;
+	text-align: center;
+}
+
+.flex-container-body-01 .flex-container-body-01-title {
+	flex-grow: 1;
+	z-index: 1;
+}
+
+/* -------------------------------- */
+/* ------BodyContainerBody2---------*/
+/* -------------------------------- */
+
+/* .flex-container-body-02 > div > a {
+	min-width: 400px;
+	max-width: 600px;
+	height: auto;
+	align-items: center;
+	border: solid 5px yellow;
+} */
+
+h1#homepageTitle {
+	text-align: center;
+	font-family: TwoShotsCleanFull;
+	text-shadow: 5px 5px 10px #201f1f;
+	font-size: 8em;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: white;
+	text-shadow: 8px 8px 20px black;
+	font-weight: normal;
+	color: #b43b07;
+	line-height: normal;
+	margin: 30px;
+}
+
+.flex-container-body-02 .flex-container-body-02-title > h1 {
+	display: inline-block;
+	font-family: TwoShotsCleanFull;
+	font-size: 3em;
+	-webkit-text-stroke-width: 0.25px;
+	-webkit-text-stroke-color: white;
+	text-shadow: 8px 8px 20px black;
+	font-weight: normal;
+	color: #ffffff;
+	line-height: normal;
+	margin: 20px;
+	padding: none;
+	/* border: solid 5px yellow; */
+}
+
+.listA {
+	margin-left: 25px;
+}
+div > p {
+	position: relative;
+	text-align: left;
+	margin: none;
+	padding: none;
+	/* border: solid 5px yellow; */
+}
+
+.page-title > div {
+	justify-content: center;
+	align-items: center;
+	/* border: 10px yellow solid; */
+}
+
+.page-title div > a > img {
+	width: auto;
+	max-height: 300px;
+	display: block;
+	border-radius: 25px;
+	box-shadow: inset 0px 0px 3px teal, inset 0px 0px 10px teal, inset 0px 0px 20px teal, 0px 0px 25px 1px black;
+	/* border: 10px yellow solid; */
+	margin: auto;
+	padding: auto;
+}
+
+/* -------------------------------- */
+/* ------flexContainerBody3---------*/
+/* -------------------------------- */
+
+.flexContainerBody3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+}
+
+.flexContainerBody3 > div {
+	flex: 1;
+	line-height: normal;
+}
+
+.flexContainerBody3 img {
+	display: flex;
+	flex-direction: column;
+
+	border-radius: 20px;
+	box-shadow: inset 0px 0px 3px teal, inset 0px 0px 10px teal, inset 0px 0px 20px teal, 0px 0px 25px 1px black;
+	width: 200px;
+	height: auto;
+	margin: 25px;
+}
+
+.flexContainerBody3 img {
+	border-radius: 20px;
+	box-shadow: inset 0px 0px 3px teal, inset 0px 0px 10px teal, inset 0px 0px 20px teal, 0px 0px 25px 1px black;
+	width: 200px;
+	height: auto;
+	margin: 25px;
+}
+
+/* About Us Page */
+.genericText1 > h1 {
+	display: block;
+	line-height: normal;
+	padding: 50px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.genericText1 > p {
+	display: block;
+	float: left;
+	line-height: normal;
+	padding: 50px;
+
+	text-align: center;
+	font-size: 2em;
+}
+
+img#inlineImage {
+	float: right;
+	width: 900px;
+}
+
+/*
+================================
+Tablet Styles: 481px and greater
+================================
+*/
+@media only screen and (min-width: 481px) {
+	body {
+		border: solid 10px green;
+	}
+
+	.flex-container-body-01-sectionTitle {
+		font-family: TwoShotsCleanFull;
+		font-size: 5em;
+		color: #b43b07;
+		text-align: center;
+		font-weight: normal;
+		text-shadow: 5px 5px 10px #201f1f;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+		line-height: 1 em;
+	}
+
+	nav.horizontal {
+		text-align: center;
+	}
+
+	ul.horizontal-mainmenu > li {
+		/* float: left; */
+		position: relative;
+		width: 20%;
+		font-size: 15px;
+		line-height: 3em;
+		margin: 0px;
+		min-height: 150px;
+		max-height: 150px;
+	}
+
+	a.horizontal-mainmenu-dropdown {
+		line-height: 1em;
+		padding: 50px;
+		text-align: center;
+		min-height: 100px;
+		max-height: 250px;
+	}
+
+	/* .flexContainerBody2-image1 a img {
+		float: right;
+		padding: 25px;
+		width: 600px;
+	} */
+
+	/* .flexContainerBody2.image1 img {
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		min-width: 100px;
+		max-width: 300px;
+	} */
+
+	img.flex-container-body-01-logo1 {
+		min-width: 50px;
+		max-width: 100px;
+	}
+
+	img#inlineImage {
+		float: right;
+		padding: 25px;
+		width: 350px;
+	}
+
+	.flexContainer-body2.image img {
+		font-size: 10em;
+	}
+
+	.flexContainerBody2-image1 img {
+		float: right;
+		padding: 0px;
+		margin: 0px;
+		width: 450px;
+		border: solid 20px yellow;
+	}
+}

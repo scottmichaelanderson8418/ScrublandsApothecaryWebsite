@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input:invalid {
+	color: red;
+	border: red;
+	box-shadow: 0px 0px 5px red;
+}
+
+input[type="text"],
+input[type="email"],
+select#creditCard {
+	/* background-color: pink; */
+	color: black;
+}
+
+div.labelA > img {
+	display: inline-flex;
+	width: 50px;
+}
+
+img.inline-block {
+	display: inline-flex;
+}
+
+/* h1,
+label {
+	color: light red;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+} */
+
+input[type="text"]:focus,
+select:active,
+input[type="email"]:focus,
+select#creditCard {
+	background-color: pink;
+	border: 5px solid red;
+}
+
+select#creditCard {
+	line-height: normal;
+	border: none;
+	/* display: block; */
+	outline: none;
+}
+
+fieldset {
+	/* border: 2px solid black; */
+	display: inline-flex;
+	flex-direction: wrap;
+
+	justify-content: center;
+	align-items: center;
+	border: none;
+	/* background-color: rgb(180, 59, 7); */
+	/* box-shadow:outset,inset/h-offset v-offset blur spread color; */
+	/* box-shadow: 10px -10px 35px rgb(189, 186, 186); */
+}
+
+form.formGroup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 70%;
+	min-width: 30%;
+	height: 75%;
+	margin: 10%;
+	padding: 20px;
+	/* color: #5e94b6; */
+	background-color: rgb(180, 59, 7);
+
+	opacity: 0.8;
+
+	/* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+	border-radius: 20px;
+
+	box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.5), 10px 10px 30px 0px rgba(255, 255, 255, 0.347) inset;
+}
+
+.formGroup > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	line-height: 1em;
+	width: 90%;
+	height: auto;
+	margin: 0px;
+	padding: 20px;
+	/* border: 5px solid black; */
+}
+
+.formGroup > div label {
+	font-size: 2em;
+	width: 500px;
+	/* color: rgb(180, 59, 7); */
+	line-height: 1em;
+	text-align: left;
+	color: rgb(255, 255, 255);
+	font-family: TwoShotsCleanFull, Courier, monospace;
+	font-weight: normal;
+}
+
+.formGroup > div input,
+.formGroup > div select {
+	font-size: 1em;
+	height: auto;
+	padding: 1px;
+	margin: 1;
+	line-height: 1em;
+	text-align: left;
+	color: rgb(180, 59, 7);
+	/* font-family: TwoShotsCleanFull, Courier, monospace; */
+	font-weight: normal;
+}
+
+/* 
+.formInput>div {
+    width: 80%;
+    margin: 100px;
+    padding: 20px;
+
+
+} */
+
+select#country,
+select.creditCard,
+input#email,
+input#lname,
+input#fname,
+input#creditCardNumber,
+input#cscNumber,
+select#cardYear,
+select#cardMonth {
+	border-radius: 5px;
+	height: 25px;
+	width: 100%;
+}
+
+.submitButton input[type="submit"] {
+	color: rgb(25, 25, 25);
+	font-size: 30px;
+	margin: 25px;
+	width: auto;
+	height: 100px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+/*
+   New Perspectives on HTML and CSS, 8th Edition
+   Tutorial 7
+   Review Assignment
+
+   Customer Information Form Style Sheet
+
+   Filename: rb_forms2.css
+
+*/
+
+/* Form Layout Styles */
+
+form {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+fieldset {
+	/* background-color: rgb(234, 189, 142); */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+
+div {
+	margin: 5px;
+	width: 100%;
+}
+
+legend {
+	color: rgb(63, 61, 61);
+	background-color: rgb(255, 255, 255);
+	line-height: 2em;
+	font-size: 2em;
+	padding: 15px;
+}
+
+label {
+	display: inline-block;
+	width: 120px;
+}
+
+div.labelA img {
+	display: flex;
+	flex-direction: row;
+	width: 10px;
+}
+
+img[src="dozen.png"] {
+	display: inline-block;
+	margin-left: 135px;
+}
+
+fieldset#soapAmount label,
+fieldset#deliveryInfo label {
+	margin-bottom: 10px;
+	flex: 1;
+	height: 50px;
+	line-height: 0.75em;
+	width: 100%;
+}
+
+textarea {
+	display: block;
+	width: 90%;
+	height: 100px;
+}
+
+input[type="submit"] {
+	height: 50px;
+	width: 200px;
+}
+
+input#sizeBox {
+	width: 240px;
+}

@@ -1,0 +1,508 @@
+@charset "utf-8";
+
+/* =================================
+Desktop Styles: 769px and greater
+=================================
+*/
+@media only screen and (min-width: 769px) {
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body {
+		width: 100%;
+		min-width: 769px;
+		font-size: 1.5em;
+		background-color: rgb(73, 58, 49, 0.8);
+		box-shadow: rgb(51, 51, 51) 5px 0px 15px, rgb(51, 51, 51) -5px 0px 15px;
+		margin: auto auto;
+		color: white;
+		z-index: 1;
+		min-height: 100vh;
+
+		min-width: 900px;
+		max-width: 1500px;
+		border: solid 10px blue;
+	}
+
+	html {
+		/* display: flex; */
+		margin: auto;
+		padding: auto;
+		background-image: url("background.jpg");
+
+		background-size: cover;
+		background-repeat: repeat-y;
+		/* background-attachment: fixed; */
+		background-position: center;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 15px;
+	}
+
+	/* ------------------------Home Page --------------------*/
+	section.flex-container-body-01 div a img {
+		display: block;
+		margin: auto;
+		min-width: 10%;
+		max-width: 20%;
+		height: auto;
+		border-radius: 1.5rem;
+		box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+		/* box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18); */
+	}
+
+	section.flex-container-body-02 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		position: relative;
+		color: white;
+	}
+
+	section.flex-container-body-02 div {
+		/* border: solid 5px yellow; */
+		width: 100%;
+	}
+
+	/* Horizonal Navigation Styles */
+	nav.horizontal > ul > li > a {
+		color: blue;
+		border: none;
+		max-height: 200px;
+		min-height: 100%;
+	}
+
+	ul.horizontal-mainmenu > li > a {
+		display: block;
+		text-align: center !important;
+		color: white;
+		/* font-size: large; */
+		text-transform: uppercase;
+		position: relative;
+		margin: auto;
+		padding: auto;
+		border-radius: 0.125rem;
+		box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+		width: 100%;
+		min-height: 100%;
+	}
+
+	a.horizontal-mainmenu-dropdown {
+		position: relative;
+		display: none;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+
+		font-size: 5rem;
+		color: blue;
+		line-height: 2.5em;
+		margin: none;
+		padding: none;
+	}
+
+	nav.horizontal-mainmenu > dropdown:focus + ul.horizontal-mainmenu-dropdown-dropdown-contents {
+		display: block;
+		color: blue;
+		border: none;
+	}
+
+	ul.horizontal-mainmenu-dropdown-dropdown-contents {
+		display: none;
+		position: absolute;
+		min-width: 100%;
+		font-size: 1.5rem;
+		border: none;
+
+		background: transparent;
+		box-shadow: none;
+
+		display: none;
+		position: absolute;
+
+		min-width: 100%;
+		min-height: 500px;
+		z-index: 6;
+	}
+
+	ul.horizontal-mainmenu-dropdown-dropdown-contents li {
+		display: block;
+		position: relative;
+
+		/* margin: 15px 15px; */
+		padding: 20px 20px;
+
+		min-width: 100%;
+		min-height: 100%;
+
+		border-radius: 0.5rem;
+
+		display: block;
+
+		background-color: rgb(73, 58, 49);
+
+		position: relative;
+
+		z-index: 6;
+	}
+	.bannerImages {
+		box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+
+	ul.horizontal-mainmenu-dropdown-dropdown-contents li a {
+		display: block;
+		position: relative;
+		min-width: 100%;
+		min-height: 100%;
+
+		background-color: rgb(73, 58, 49);
+	}
+
+	/* ADD :HOVER */
+	a.horizontal-mainmenu-dropdown:hover + ul.horizontal-mainmenu-dropdown-dropdown-contents,
+	ul.horizontal-mainmenu-dropdown-dropdown-contents:hover,
+	ul:hover {
+		display: block;
+		position: relative;
+		color: blue;
+		border: none;
+		width: 100%;
+		min-height: 100%;
+	}
+
+	a.horizontal-mainmenu-dropdown a:link {
+		background-color: rgb(73, 58, 49, 0.5);
+		color: white;
+		font-size: 2em;
+		padding: 50px;
+		text-align: center;
+		padding: 50px;
+		z-index: 2;
+	}
+
+	nav.horizontal a:visited,
+	nav.horizontal a:link {
+		color: white;
+
+		width: 100%;
+		font-size: 2.5em;
+
+		text-align: center;
+
+		margin: 0px;
+		padding: 0px;
+
+		min-height: 100%;
+		z-index: 2;
+	}
+
+	ul.horizontal-mainmenu li {
+		display: block;
+		width: 100%;
+		min-height: 100%;
+
+		display: block;
+
+		z-index: 2;
+	}
+
+	a.horizontal-mainmenu-dropdown {
+		width: 100%;
+		min-height: 100%;
+
+		display: block;
+	}
+
+	img#inlineImage {
+		float: right;
+		padding: 25px;
+		width: 450px;
+	}
+
+	nav.horizontal {
+		display: flex;
+		background-color: none;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	nav.horizontal ul.horizontal-mainmenu {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		min-height: 100%;
+		max-height: 100%;
+		text-align: center;
+		width: 100%;
+	}
+
+	section.flexContainerBody-BarSoap {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 0px;
+		margin: 0px;
+		flex-grow: 0;
+		line-height: normal;
+	}
+
+	section.flexContainerBody-BarSoap article div h2 {
+		text-align: center;
+		padding: 10px;
+		margin: 0px;
+		flex-grow: 0;
+	}
+
+	div.flexContainerBody-BarSoap-Article h2 {
+		font-size: 0.5rem;
+	}
+
+	section.flex-container-body-02 div.flex-container-body-02-title > p {
+		display: inline-block;
+		/* border: solid 5px yellow; */
+	}
+
+	div.flex-container-body-02-title p {
+		display: inline-block;
+	}
+
+	div.text-item > p {
+		margin: 2rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		line-height: 5rem;
+	}
+
+	section.flex-container-body-02 > div > h1 {
+		text-align: center;
+		font-family: TwoShotsCleanFull;
+		text-shadow: 5px 5px 10px #201f1f;
+		font-size: 6rem;
+		-webkit-text-stroke-width: 1.5px;
+		-webkit-text-stroke-color: white;
+		text-shadow: 8px 8px 20px black;
+		font-weight: normal;
+		color: #ffffff;
+		line-height: normal;
+		min-width: 100%;
+		margin-top: 5rem;
+	}
+	div.figure-container-01 {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: stretch;
+	}
+	div.figure-container-01 > div.text-item {
+		text-align: left;
+		flex-grow: 1;
+	}
+
+	div.figure-container-01 div.text-item p {
+		text-align: left;
+		min-height: 100%;
+		margin: 2rem;
+		line-height: 5rem;
+	}
+
+	div.image-item {
+		flex-shrink: 5;
+	}
+	div.figure-container-01 > div.image-item > figure > img {
+		position: relative;
+		max-width: 600px;
+		min-width: 300px;
+		height: auto;
+		padding: none;
+
+		border-radius: 1em;
+		box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+		clear: both;
+		/* border: solid 15px red; */
+		margin: 0px;
+		padding: 0px;
+	}
+
+	div.figure-caption > figcaption {
+		position: relative;
+
+		margin: 0px;
+		padding: 25px;
+		border-radius: 0.5em;
+		padding: none;
+		clear: both;
+		background-color: rgba(88, 75, 75, 0.5); /* Optional: Add a background color */
+		text-align: center;
+	}
+
+	/* ------------------------------- */
+	div.figure-container-02 {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: stretch;
+	}
+	div.figure-container-02 > div.text-item-02 {
+		text-align: left;
+		flex-grow: 1;
+		order: 2;
+	}
+
+	div.figure-container-02 div.text-item-02 p {
+		text-align: left;
+		min-height: 100%;
+		margin: 2rem;
+		line-height: 5rem;
+	}
+
+	div.image-item-02 {
+		order: 1;
+		flex-shrink: 5;
+	}
+	div.figure-container-02 > div.image-item-02 > figure > img {
+		position: relative;
+		max-width: 600px;
+		min-width: 300px;
+		height: auto;
+		padding: none;
+
+		border-radius: 1em;
+		box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+		clear: both;
+
+		margin: 0px;
+		padding: 0px;
+	}
+
+	div.figure-caption > figcaption {
+		position: relative;
+		margin: 0px;
+		padding: 25px;
+		border-radius: 0.5em;
+
+		clear: both;
+		background-color: rgba(88, 75, 75, 0.5); /* Optional: Add a background color */
+		text-align: center;
+	}
+
+	div.figure-container-01 .page-title > div > h1 {
+		text-align: center;
+		font-family: TwoShotsCleanFull;
+		text-shadow: 5px 5px 10px #201f1f;
+		font-size: 12em;
+		-webkit-text-stroke-width: 0.8px;
+		-webkit-text-stroke-color: white;
+		text-shadow: 8px 8px 20px black;
+		font-weight: normal;
+		color: #b43b07;
+		line-height: normal;
+		min-width: 100%;
+	}
+	div.figure-container-01 div.text-item h1 {
+		text-align: center;
+		font-family: TwoShotsCleanFull;
+		text-shadow: 5px 5px 10px #201f1f;
+		font-size: 10rem;
+		-webkit-text-stroke-width: 0.3px;
+		-webkit-text-stroke-color: white;
+		text-shadow: 8px 8px 20px black;
+		font-weight: normal;
+		color: #b43b07;
+		line-height: normal;
+		min-width: 100%;
+	}
+	.page-title > div > h1 {
+		text-align: center;
+		font-family: TwoShotsCleanFull;
+		text-shadow: 5px 5px 10px #201f1f;
+		font-size: 12em;
+		-webkit-text-stroke-width: 0.8px;
+		-webkit-text-stroke-color: white;
+		text-shadow: 8px 8px 20px black;
+		font-weight: normal;
+		color: #b43b07;
+		line-height: normal;
+		min-width: 100%;
+	}
+
+	div.text-item-footer > p {
+		text-align: center;
+	}
+
+	/* ------------------------Product Page --------------------*/
+
+	section.flex-container-body-01 > div > h1 {
+		text-align: center;
+		font-family: TwoShotsCleanFull;
+		text-shadow: 5px 5px 10px #201f1f;
+		font-size: 15rem;
+		-webkit-text-stroke-width: 0.8px;
+		-webkit-text-stroke-color: white;
+		text-shadow: 8px 8px 20px black;
+		font-weight: normal;
+		color: #b43b07;
+		line-height: normal;
+		min-width: 100%;
+		z-index: 10;
+	}
+
+	section.flex-container-body-01 > div > h2 {
+		text-align: center;
+		font-family: TwoShotsCleanFull;
+		text-shadow: 5px 5px 10px #201f1f;
+		font-size: 7em;
+		-webkit-text-stroke-width: 0.8px;
+		-webkit-text-stroke-color: white;
+		text-shadow: 8px 8px 20px black;
+		font-weight: normal;
+		color: #ffffff;
+		line-height: normal;
+		margin: 0px;
+		padding: 0px;
+		min-width: 100%;
+	}
+
+	section.flex-container-body-01 > div.slogan h2 {
+		text-align: center;
+		font-family: TwoShotsCleanFull;
+		text-shadow: 5px 5px 10px #201f1f;
+		font-size: 7rem;
+		-webkit-text-stroke-width: 0.5px;
+		-webkit-text-stroke-color: white;
+		text-shadow: 8px 8px 20px black;
+		font-weight: normal;
+		color: #b43b07;
+		line-height: normal;
+		margin: 0px;
+		padding: 0px;
+		min-width: 100%;
+	}
+
+	section.flex-container-body-01 > div > a > img {
+		display: block;
+		margin: auto;
+		min-width: 200px;
+		max-width: 300px;
+		height: auto;
+		border-radius: 1.5rem;
+		box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+		/* box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18); */
+	}
+
+	section.flex-container-body-01 div.product-page-image > a > img {
+		display: block;
+		margin: auto;
+		min-width: 500px;
+		max-width: 600px;
+		height: auto;
+		border-radius: 1.5rem;
+		box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+	}
+}

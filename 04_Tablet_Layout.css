@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+================================
+Tablet Styles: 481px and greater
+================================
+*/
+@media only screen and (min-width: 481px) {
+	.flex-container-body-01-sectionTitle {
+		font-family: TwoShotsCleanFull;
+		font-size: 5em;
+		color: #b43b07;
+		text-align: center;
+		font-weight: normal;
+		text-shadow: 5px 5px 10px #201f1f;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+		line-height: 1 em;
+	}
+
+	nav.horizontal {
+		line-height: 5em;
+		height: 20px;
+		height: auto;
+		max-height: 100px;
+	}
+	ul.horizontal-mainmenu > li {
+		float: left;
+		position: relative;
+		width: 20%;
+		font-size: 15px;
+		line-height: 3em;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	a.horizontal-mainmenu-dropdown {
+		line-height: 1em;
+		padding: 5px;
+	}
+
+	body {
+		position: relative;
+		font-size: 12px;
+		display: block;
+		width: 100%;
+		min-width: 480px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		flex-grow: 1;
+		min-height: 100dvh;
+	}
+
+	img.flex-container-body-01-logo1 {
+		min-width: 50px;
+		max-width: 100px;
+	}
+	img#inlineImage {
+		float: right;
+		padding: 25px;
+		width: 350px;
+	}
+}

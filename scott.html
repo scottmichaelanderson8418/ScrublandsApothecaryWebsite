@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        align-items: center;
+        background-color: DodgerBlue;
+      }
+
+      .flex-container > article > div {
+        background-color: #f1f1f1;
+        width: 500px;
+        height: 500px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      .flex-container > article > div > a > img {
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        border-radius: 25px;
+        box-shadow: inset 0px 0px 3px teal, inset 0px 0px 10px teal, inset 0px 0px 20px teal,
+          0px 0px 25px 1px black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The align-items Property</h1>
+
+    <p>The "align-items: center;" aligns the flex items in the middle of the container:</p>
+
+    <div class="flex-container">
+      <article>
+        <div>
+          <h2>title 1</h2>
+
+          <a href=""> <img src="SeaGreen.jpg" alt="Scrub Logo" /></a>
+        </div>
+      </article>
+
+      <article>
+        <div>
+          <h2>title 2</h2>
+        </div>
+      </article>
+
+      <article>
+        <div>
+          <h2>title 3</h2>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>

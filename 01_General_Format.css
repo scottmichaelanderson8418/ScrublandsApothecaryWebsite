@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "TwoShotsCleanFull";
+	/*a name to be used later*/
+	src: url("Vozzy - Two Shots Clean Full.WOFF2") format("woff2");
+	/*URL to font*/
+}
+
+@font-face {
+	font-family: "TwoShotsCleanFullOTF";
+	/*a name to be used later*/
+	src: url("Vozzy - Two Shots Clean Full.otf") format("oft");
+	/*URL to font*/
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a[target="_blank"] {
+	background-color: red;
+}
+
+a[href="#"] {
+	background-color: red;
+}
+
+ul.horizontal-mainmenu-dropdown-dropdown-contents[href="#"] {
+	background-color: red;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#banner {
+	display: block;
+	position: relative;
+
+	width: 100%;
+}
+
+/* Background Styles */
+
+html {
+	display: flex;
+	margin: auto;
+	padding: auto;
+	background-image: url("background.jpg");
+
+	background-size: cover;
+	background-repeat: repeat-y;
+	/* background-attachment: fixed; */
+	background-position: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+}
+
+body {
+	margin: auto;
+	padding: auto;
+	background-color: rgb(73, 58, 49, 0.6);
+	/* background-color:rgb(85, 124, 86); */
+	box-shadow: rgb(51, 51, 51) 5px 0px 15px, rgb(51, 51, 51) -5px 0px 15px;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 900px;
+	max-width: 1200px;
+	font-size: 20px;
+}
+
+ul.horizontal-mainmenu {
+	background-color: rgb(73, 58, 49, 0.8);
+	display: block;
+	color: white;
+	font-size: 2.5em;
+	font-family: TwoShotsCleanFull;
+	text-align: center;
+}
+
+.horizontal-mainmenu-dropdown {
+	color: red;
+	padding: 25px;
+}
+
+/* Header Topography */
+body > header > a > img {
+	display: block;
+	width: 100%;
+	position: center;
+	margin: auto;
+}
+
+p:first-child {
+	color: white;
+}
+
+body > section > div > p:first-line {
+	color: white;
+}
+
+a:first-child {
+	color: white;
+}
